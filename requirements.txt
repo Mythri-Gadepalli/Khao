@@ -1,0 +1,18 @@
+# Backend dependencies
+express
+express-validator
+mongoose
+cors
+multer
+dotenv
+
+# Development dependencies
+nodemon (dev)
+
+# Frontend setup
+create-react-app (used to scaffold frontend)
+axios
+
+# Note:
+# Use 'npm install' or 'yarn' in respective directories (backend and frontend) to install these.
+# This file is for documentation purposes only and not meant for pip.

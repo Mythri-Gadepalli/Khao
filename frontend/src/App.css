@@ -1,0 +1,55 @@
+/* App.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #FFDAC1; /* Full-page peach background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+
+
+.navbar {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  background-color: #282c34;
+  padding: 15px 30px;
+  border-radius: 0; /* Remove rounding for full-width */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  padding-top: 90px; /* Create space for fixed navbar */
+}
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.page {
+  background: transparent;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: none;
+}

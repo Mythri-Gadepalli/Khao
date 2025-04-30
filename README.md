@@ -30,7 +30,7 @@ A full-stack web application to manage student team members. Users can add, view
 1. *Clone the Repository*
 
 bash
-git clone https://github.com/chinmayeeparuchuri/Khao.git
+git clone https://github.com/Mythri-Gadepalli/Khao.git
 cd Khao
 
 
